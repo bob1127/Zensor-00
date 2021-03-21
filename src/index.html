@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>webpack Bootstrap</title>
-    
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css
+    <title>webpack zensor</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css
 
 
 
-    "
-    />
+    " />
     <script src="../dist/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -21,1064 +19,828 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/SplitText3.min.js"></script>
-  </head>
+</head>
 
-  <body>
+<body>
     <div class="wrapper">
-      <div id="category">
-        <div class="title">禪譜產品分類</div>
-        <div class="content">
-          <ul>
-            <li class="sidebar_zensor">
-              電化學相關（5)<span></span>
-              <ul class="sidebar_pro_ouside_wrap">
-                <li class="sidebar_pro_ouside">
-                  化學感測器實擬分析儀 - Zensor Simulator(4)
-                  <ul class="sidebar_pro_inside_wrap">
-                    <li class="sidebar_pro_inside">ECAS100</li>
-                    <li class="sidebar_pro_inside">ACIP100</li>
-                    <li class="sidebar_pro_inside">Optical + EC</li>
-                  </ul>
-                </li>
-                <li class="sidebar_pro_ouside">
-                  電化學偵測器 - Zensor ECD(1)
-                  <ul class="sidebar_pro_inside_wrap">
-                    <li class="sidebar_pro_inside">SF100</li>
-                  </ul>
-                </li>
-                <li class="sidebar_pro_ouside">
-                  網版印刷電極 - Zensor SPE(7)
-                  <ul class="sidebar_pro_inside_wrap">
-                    <li class="sidebar_pro_inside">電極客製服務</li>
-                    <li class="sidebar_pro_inside">TE100 碳三電極</li>
-                    <li class="sidebar_pro_inside">SE100 碳單電極</li>
-                    <li class="sidebar_pro_inside">AG100 銀電極</li>
-                    <li class="sidebar_pro_inside">AUSE100 金電極</li>
-                    <li class="sidebar_pro_inside">SAUTE100 金電極</li>
-                    <li class="sidebar_pro_inside">AUTE200 金電極</li>
-                  </ul>
-                </li>
-                <li class="sidebar_pro_ouside">
-                  無線&多通道恆電位儀 / 電化學分析儀 - Zensor MCP(2)
-                  <ul class="sidebar_pro_inside_wrap">
-                    <li class="sidebar_pro_inside">ECWP100</li>
-                    <li class="sidebar_pro_inside">MCP100</li>
-                  </ul>
-                </li>
-                <li class="sidebar_pro_ouside">
-                  其他產品(3)
-                  <ul class="sidebar_pro_inside_wrap">
-                    <li class="sidebar_pro_inside">CS100</li>
-                    <li class="sidebar_pro_inside">CM100</li>
-                    <li class="sidebar_pro_inside">CT100</li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
+        <div id="category">
+            <div class="title">禪譜產品分類</div>
+            <div class="content">
+                <ul>
+                    <li class="sidebar_zensor">
+                        電化學相關（5)<span></span>
+                        <ul class="sidebar_pro_ouside_wrap">
+                            <li class="sidebar_pro_ouside">
+                                化學感測器實擬分析儀 - Zensor Simulator(4)
+                                <ul class="sidebar_pro_inside_wrap">
+                                    <li class="sidebar_pro_inside">ECAS100</li>
+                                    <li class="sidebar_pro_inside">ACIP100</li>
+                                    <li class="sidebar_pro_inside">Optical + EC</li>
+                                </ul>
+                            </li>
+                            <li class="sidebar_pro_ouside">
+                                電化學偵測器 - Zensor ECD(1)
+                                <ul class="sidebar_pro_inside_wrap">
+                                    <li class="sidebar_pro_inside">SF100</li>
+                                </ul>
+                            </li>
+                            <li class="sidebar_pro_ouside">
+                                網版印刷電極 - Zensor SPE(7)
+                                <ul class="sidebar_pro_inside_wrap">
+                                    <li class="sidebar_pro_inside">電極客製服務</li>
+                                    <li class="sidebar_pro_inside">TE100 碳三電極</li>
+                                    <li class="sidebar_pro_inside">SE100 碳單電極</li>
+                                    <li class="sidebar_pro_inside">AG100 銀電極</li>
+                                    <li class="sidebar_pro_inside">AUSE100 金電極</li>
+                                    <li class="sidebar_pro_inside">SAUTE100 金電極</li>
+                                    <li class="sidebar_pro_inside">AUTE200 金電極</li>
+                                </ul>
+                            </li>
+                            <li class="sidebar_pro_ouside">
+                                無線&多通道恆電位儀 / 電化學分析儀 - Zensor MCP(2)
+                                <ul class="sidebar_pro_inside_wrap">
+                                    <li class="sidebar_pro_inside">ECWP100</li>
+                                    <li class="sidebar_pro_inside">MCP100</li>
+                                </ul>
+                            </li>
+                            <li class="sidebar_pro_ouside">
+                                其他產品(3)
+                                <ul class="sidebar_pro_inside_wrap">
+                                    <li class="sidebar_pro_inside">CS100</li>
+                                    <li class="sidebar_pro_inside">CM100</li>
+                                    <li class="sidebar_pro_inside">CT100</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
 
-            <li>相關公司（8）</li>
-          </ul>
+                    <li>相關公司（8）</li>
+                </ul>
+            </div>
         </div>
-      </div>
-      <div class="top_fix_nav">
-        <div class="horizontal">
-          <div>Hello</div>
-        </div>
-
-        <div class="horizontal">
-          <div>Wecome to Zensor</div>
-        </div>
-      </div>
-      <nav>
-        <div class="top_nav">
-          <div class="left_wrap">
-            <a href="#"
-              ><img src="../images/company_logo/zensor_logo_nav.png" alt=""
-            /></a>
-          </div>
-
-          <div class="right_wrap">
-            <ul class="icon_wrap">
-              <a
-                href="
-              "
-                ><img class="icon" src="../images/nav-icon/facebook.png" alt=""
-              /></a>
-              <a href="">
-                <img class="icon" src="../images/nav-icon/line.png" alt="" />
-              </a>
-              <a href="">
-                <img class="icon" src="../images/nav-icon/wechat.png" alt="" />
-              </a>
-            </ul>
-          </div>
-        </div>
-        <div
-          class="bottom_nav"
-          data-aos="fade-up"
-          data-aos-duration="500"
-          data-aos-delay="400"
-        >
-          <ul>
-            <li
-              data-aos="fade-left"
-              data-aos-duration="1000"
-              data-aos-delay="900"
-            >
-              <a href="#">Ｈome</a>
-            </li>
-            <li
-              data-aos="fade-left"
-              data-aos-duration="1000"
-              data-aos-delay="1100"
-            >
-              <a href="#">About us</a>
-            </li>
-            <li
-              data-aos="fade-left"
-              data-aos-duration="1000"
-              data-aos-delay="1300"
-              id="nav_product"
-            >
-              <a href="#">Product</a>
-              <div class="product_toggle">
-                <div class="wrap">
-                  <div class="item">
-                    <div class="product_name">ECWP100C</div>
-                    <img src="../images/nav商品圖片/ECWP100C.png" alt="" />
-                    <p>Zensor</p>
-                  </div>
-                  <div class="item">
-                    <div class="product_name">ECWP100C</div>
-                    <img src="../images/nav商品圖片/ECWP100R.png" alt="" />
-                    <p>Zensor</p>
-                  </div>
-                  <div class="item">
-                    <div class="product_name">ECWP100C</div>
-                    <img
-                      src="../images/首頁產品圖/zensor simulator/ACIP100.png"
-                      alt=""
-                    />
-                    <p>Zensor</p>
-                  </div>
-                  <div class="item">
-                    <div class="product_name">ECWP100C</div>
-                    <img
-                      src="../images/首頁產品圖/zensor simulator/ECAS100.png"
-                      alt=""
-                    />
-                    <p>Zensor</p>
-                  </div>
-                  <div class="item">
-                    <div class="product_name">ECWP100C</div>
-                    <img
-                      src="../images/首頁產品圖/zensor coater/CM100.png"
-                      alt=""
-                    />
-                    <p>Zensor</p>
-                  </div>
-                  <div class="item">
-                    <div class="product_name">ECWP100C</div>
-                    <img
-                      src="../images/首頁產品圖/zensor coater/CS100.png"
-                      alt=""
-                    />
-                    <p>Zensor</p>
-                  </div>
-                  <div class="item">
-                    <div class="product_name">ECWP100C</div>
-                    <img
-                      src="../images/首頁產品圖/zensor ecd/ECD100.png"
-                      alt=""
-                    />
-                    <p>Zensor</p>
-                  </div>
-                  <div class="item">
-                    <img
-                      src="../images/首頁產品圖/zensor coater/CT100.png"
-                      alt=""
-                    />
-                    <p>Zensor</p>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li
-              data-aos="fade-left"
-              data-aos-duration="1000"
-              data-aos-delay="1500"
-            >
-              <a href="#">Techenology</a>
-            </li>
-            <li
-              data-aos="fade-left"
-              data-aos-duration="1000"
-              data-aos-delay="1700"
-            >
-              <a href="#">News</a>
-            </li>
-            <li
-              data-aos="fade-left"
-              data-aos-duration="1000"
-              data-aos-delay="1900"
-            >
-              <a href="#">Contact us</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <header>
-        <div class="scroll_dowmn"></div>
-        <div class="oakslider">
-          <div class="oakslider__ui">
-            <div class="oakslider__nav">
-              <div class="oakslider__navpoint">
-                <div class="oakslider__timer">
-                  <div class="timer__progress"></div>
-                </div>
-                <span class="oakslider__label"></span>
-              </div>
-              <div class="oakslider__navpoint">
-                <div class="oakslider__timer">
-                  <div class="timer__progress"></div>
-                </div>
-                <span class="oakslider__label"></span>
-              </div>
+        <div class="top_fix_nav">
+            <div class="horizontal">
+                <div>Hello</div>
             </div>
 
-            <div class="oakslider__controls">
-              <div
-                class="oakslider__arrow oakslider__arrow--left oakslider__prev"
-              ></div>
-              <div
-                class="oakslider__arrow oakslider__arrow--right oakslider__next"
-              >
-                >
-              </div>
+            <div class="horizontal">
+                <div>Wecome to Zensor</div>
             </div>
-          </div>
+        </div>
+        <nav>
+            <div class="top_nav">
+                <div class="left_wrap">
+                    <a href="#"><img src="../images/company_logo/zensor_logo_nav.png" alt="" /></a>
+                </div>
 
-          <div class="oakslider__slider">
-            <div class="oakslider__slide slide--active" data-slide="1">
-              <div class="slide__image">
-                <div
-                  class="img"
-                  style="
+                <div class="right_wrap">
+                    <ul class="icon_wrap">
+                        <a href="
+              "><img class="icon" src="../images/nav-icon/facebook.png" alt="" /></a>
+                        <a href="">
+                            <img class="icon" src="../images/nav-icon/line.png" alt="" />
+                        </a>
+                        <a href="">
+                            <img class="icon" src="../images/nav-icon/wechat.png" alt="" />
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom_nav" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">
+                <ul>
+                    <li data-aos="fade-left" data-aos-duration="1000" data-aos-delay="900">
+                        <a href="#">Ｈome</a>
+                    </li>
+                    <li data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1100">
+                        <a href="#">About us</a>
+                    </li>
+                    <li data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1300" id="nav_product">
+                        <a href="#">Product</a>
+                        <div class="product_toggle">
+                            <div class="wrap">
+                                <div class="item">
+                                    <div class="product_name">ECWP100C</div>
+                                    <img src="../images/nav商品圖片/ECWP100C.png" alt="" />
+                                    <p>Zensor</p>
+                                </div>
+                                <div class="item">
+                                    <div class="product_name">ECWP100C</div>
+                                    <img src="../images/nav商品圖片/ECWP100R.png" alt="" />
+                                    <p>Zensor</p>
+                                </div>
+                                <div class="item">
+                                    <div class="product_name">ECWP100C</div>
+                                    <img src="../images/首頁產品圖/zensor simulator/ACIP100.png" alt="" />
+                                    <p>Zensor</p>
+                                </div>
+                                <div class="item">
+                                    <div class="product_name">ECWP100C</div>
+                                    <img src="../images/首頁產品圖/zensor simulator/ECAS100.png" alt="" />
+                                    <p>Zensor</p>
+                                </div>
+                                <div class="item">
+                                    <div class="product_name">ECWP100C</div>
+                                    <img src="../images/首頁產品圖/zensor coater/CM100.png" alt="" />
+                                    <p>Zensor</p>
+                                </div>
+                                <div class="item">
+                                    <div class="product_name">ECWP100C</div>
+                                    <img src="../images/首頁產品圖/zensor coater/CS100.png" alt="" />
+                                    <p>Zensor</p>
+                                </div>
+                                <div class="item">
+                                    <div class="product_name">ECWP100C</div>
+                                    <img src="../images/首頁產品圖/zensor ecd/ECD100.png" alt="" />
+                                    <p>Zensor</p>
+                                </div>
+                                <div class="item">
+                                    <img src="../images/首頁產品圖/zensor coater/CT100.png" alt="" />
+                                    <p>Zensor</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1500">
+                        <a href="#">Techenology</a>
+                    </li>
+                    <li data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1700">
+                        <a href="#">News</a>
+                    </li>
+                    <li data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1900">
+                        <a href="#">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <header>
+            <div class="scroll_dowmn"></div>
+            <div class="oakslider">
+                <div class="oakslider__ui">
+                    <div class="oakslider__nav">
+                        <div class="oakslider__navpoint">
+                            <div class="oakslider__timer">
+                                <div class="timer__progress"></div>
+                            </div>
+                            <span class="oakslider__label"></span>
+                        </div>
+                        <div class="oakslider__navpoint">
+                            <div class="oakslider__timer">
+                                <div class="timer__progress"></div>
+                            </div>
+                            <span class="oakslider__label"></span>
+                        </div>
+                    </div>
+
+                    <div class="oakslider__controls">
+                        <div class="oakslider__arrow oakslider__arrow--left oakslider__prev"></div>
+                        <div class="oakslider__arrow oakslider__arrow--right oakslider__next">
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <div class="oakslider__slider">
+                    <div class="oakslider__slide slide--active" data-slide="1">
+                        <div class="slide__image">
+                            <div class="img" style="
                     background-image: url(../images/Xnip2021-03-19_14-34-28.jpg);
-                  "
-                ></div>
-              </div>
-              <div class="slide__container">
-                <div class="slide__content"></div>
-              </div>
-            </div>
+                  "></div>
+                        </div>
+                        <div class="slide__container">
+                            <div class="slide__content"></div>
+                        </div>
+                    </div>
 
-            <div class="oakslider__slide slide--active" data-slide="2">
-              <div class="slide__image">
-                <div
-                  class="img"
-                  style="
+                    <div class="oakslider__slide slide--active" data-slide="2">
+                        <div class="slide__image">
+                            <div class="img" style="
                     background-image: url(../images/Xnip2021-03-19_14-36-30.jpg);
-                  "
-                ></div>
-              </div>
-              <div class="slide__container">
-                <div class="slide__content"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-
-      <section class="section_chemistry mt-5">
-        <div class="container">
-          <div class="row mt-5">
-            <div class="col-md-12">
-              <div class="wrap">
-                <div class="quote">PRODUCTS</div>
-              </div>
-            </div>
-          </div>
-          <div class="row no-gutters">
-            <div class="col-md-3">
-              <div class="product_item">
-                <div class="img_wrap">
-                  <img
-                    class="img01"
-                    src="../images/首頁產品圖/zensor mcp/Xnip2021-03-19_10-06-35.jpg"
-                    alt="產品"
-                  />
-                  <img
-                    class="img02"
-                    src="../images/首頁產品圖/zensor mcp/ECWP100C.png"
-                    alt="產品"
-                  />
-                </div>
-                <div class="txt">
-                  <h5>ECWP100C</h5>
-                  <h5>Price:</h5>
-                  <p>• 開機/連線後直接使用</p>
-                  <p>• 免連接線</p>
-                </div>
-                <div class="btn btn-blue">Buy Now</div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="product_item">
-                <div class="img_wrap">
-                  <img
-                    class="img01"
-                    src="../images/首頁產品圖/zensor mcp/Xnip2021-03-19_10-06-35.jpg"
-                    alt="產品"
-                  />
-                  <img
-                    class="img02"
-                    src="../images/nav商品圖片/ECWP100R.png"
-                    alt="產品"
-                  />
-                </div>
-                <div class="txt">
-                  <h5>ECWP100R</h5>
-                  <h5>Price:</h5>
-                  <p>• 開機/連線後直接使用</p>
-                  <p>• 免連接線</p>
-                </div>
-                <div class="btn btn-blue">Buy Now</div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="product_item">
-                <div class="img_wrap">
-                  <img
-                    class="img01"
-                    src="../images/首頁產品圖/zensor simulator/Xnip2021-03-19_10-24-54.jpg"
-                    alt="產品"
-                  />
-                  <img
-                    class="img02"
-                    src="../images/首頁產品圖/zensor simulator/ACIP100拷貝.png"
-                    alt="產品"
-                  />
-                </div>
-                <div class="txt">
-                  <h5>ACIP100</h5>
-                  <h5>Price:</h5>
-                  <p>• 開機/連線後直接使用</p>
-                  <p>• 免連接線</p>
-                </div>
-                <div class="btn btn-blue">Buy Now</div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="product_item">
-                <div class="img_wrap">
-                  <img
-                    class="img01"
-                    src="../images/首頁產品圖/zensor simulator/Xnip2021-03-19_10-44-59.jpg"
-                    alt="產品"
-                  />
-                  <img
-                    class="img02"
-                    src="../images/首頁產品圖/zensor simulator/ECAS100拷貝.png"
-                    alt="產品"
-                  />
-                </div>
-                <div class="txt">
-                  <h5>ECAS100</h5>
-                  <h5>Price:</h5>
-                  <p>• 開機/連線後直接使用</p>
-                  <p>• 免連接線</p>
-                </div>
-                <div class="btn btn-blue">Buy Now</div>
-              </div>
-            </div>
-          </div>
-          <div class="row no-gutters">
-            <div class="col-md-3">
-              <div class="product_item">
-                <div class="img_wrap">
-                  <img
-                    class="img01"
-                    src="../images/首頁產品圖/zensor coater/Xnip2021-03-19_10-46-43.jpg"
-                    alt="產品"
-                  />
-                  <img
-                    class="img02"
-                    src="../images/首頁產品圖/zensor coater/CM100拷貝.png"
-                    alt="產品"
-                  />
-                </div>
-                <div class="txt">
-                  <h5>CM100</h5>
-                  <h5>Price:</h5>
-                  <p>• 開機/連線後直接使用</p>
-                  <p>• 免連接線</p>
-                </div>
-                <div class="btn btn-blue">Buy Now</div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="product_item">
-                <div class="img_wrap">
-                  <img
-                    class="img01"
-                    src="../images/首頁產品圖/zensor coater/Xnip2021-03-19_10-56-45.jpg"
-                    alt="產品"
-                  />
-                  <img
-                    class="img02"
-                    src="../images/首頁產品圖/zensor coater/CS100.png"
-                    alt="產品"
-                  />
-                </div>
-                <div class="txt">
-                  <h5>CS100</h5>
-                  <h5>Price:</h5>
-                  <p>• 開機/連線後直接使用</p>
-                  <p>• 免連接線</p>
-                </div>
-                <div class="btn btn-blue">Buy Now</div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="product_item">
-                <div class="img_wrap">
-                  <img
-                    class="img01"
-                    src="../images/首頁產品圖/zensor coater/Xnip2021-03-19_11-02-11.jpg"
-                    alt="產品"
-                  />
-                  <img
-                    class="img02"
-                    src="../images/首頁產品圖/zensor coater/CT100拷貝.png"
-                    alt="產品"
-                  />
-                </div>
-                <div class="txt">
-                  <h5>CT100</h5>
-                  <h5>Price:</h5>
-                  <p>• 開機/連線後直接使用</p>
-                  <p>• 免連接線</p>
-                </div>
-                <div class="btn btn-blue">Buy Now</div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="product_item">
-                <div class="img_wrap">
-                  <img
-                    class="img01"
-                    src="../images/首頁產品圖/zensor ecd/Xnip2021-03-19_11-09-04.jpg"
-                    alt="產品"
-                  />
-                  <img
-                    class="img02"
-                    src="../images/首頁產品圖/zensor ecd/ECD100.png"
-                    alt="產品"
-                  />
-                </div>
-                <div class="txt">
-                  <h5>SF100</h5>
-                  <h5>Price:</h5>
-                  <p>• 開機/連線後直接使用</p>
-                  <p>• 免連接線</p>
-                </div>
-                <div class="btn btn-blue">Buy Now</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section_news">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="txt">
-                <div class="wrap">
-                  <div class="quote">NEWS</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="slick-slider">
-                <!--Slide-1 -->
-                <div class="element element-1">
-                  <div class="wrap">
-                    <div class="white_circle"></div>
-                    <div class="txt">
-                      <h3 data-aos="fade-left" data-aos-duration="1000">
-                        WOW!! Fighter is Toxic!<br />
-                        <span>天哪！戰鬥機有毒！！</span>
-                      </h3>
-                      <a href="">
-                        <div class="button">Read More</div>
-                      </a>
-
-                      <div class="link_wrap">
-                        <a href="#"
-                          ><img src="../images/NEWS/icon/wechat.png" alt=""
-                        /></a>
-                        <a href=""
-                          ><img src="../images/NEWS/icon/line.png" alt="#"
-                        /></a>
-                        <a href="#"
-                          ><img src="../images/NEWS/icon/facebook.png" alt=""
-                        /></a>
-                      </div>
+                  "></div>
+                        </div>
+                        <div class="slide__container">
+                            <div class="slide__content"></div>
+                        </div>
                     </div>
-                    <img src="../images/NEWS/F16.jpg" />
-                  </div>
                 </div>
+            </div>
+        </header>
 
-                <!--Slide-2 -->
-                <div class="element element-1">
-                  <div class="wrap">
-                    <div class="white_circle"></div>
-                    <div class="txt">
-                      <h3 data-aos="fade-left" data-aos-duration="1000">
-                        WOW!! Fighter is Toxic!<br />
-                        <span>天哪！戰鬥機有毒！！</span>
-                      </h3>
-                      <a href="">
-                        <div class="button">Read More</div>
-                      </a>
-
-                      <div class="link_wrap">
-                        <a href="#"
-                          ><img src="../images/NEWS/icon/wechat.png" alt=""
-                        /></a>
-                        <a href=""
-                          ><img src="../images/NEWS/icon/line.png" alt="#"
-                        /></a>
-                        <a href="#"
-                          ><img src="../images/NEWS/icon/facebook.png" alt=""
-                        /></a>
-                      </div>
+        <section class="section_chemistry mt-5">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-md-12">
+                        <div class="wrap">
+                            <div class="quote">PRODUCTS</div>
+                        </div>
                     </div>
-                    <img src="../images/NEWS/F16.jpg" />
-                  </div>
                 </div>
-
-                <div class="element element-1">
-                  <div class="wrap">
-                    <div class="white_circle"></div>
-                    <div class="txt">
-                      <h3 data-aos="fade-left" data-aos-duration="1000">
-                        WOW!! Fighter is Toxic!<br />
-                        <span>天哪！戰鬥機有毒！！</span>
-                      </h3>
-                      <a href="">
-                        <div class="button">Read More</div>
-                      </a>
-
-                      <div class="link_wrap">
-                        <a href="#"
-                          ><img src="../images/NEWS/icon/wechat.png" alt=""
-                        /></a>
-                        <a href=""
-                          ><img src="../images/NEWS/icon/line.png" alt="#"
-                        /></a>
-                        <a href="#"
-                          ><img src="../images/NEWS/icon/facebook.png" alt=""
-                        /></a>
-                      </div>
+                <div class="row no-gutters">
+                    <div class="col-md-3">
+                        <div class="product_item">
+                            <div class="img_wrap">
+                                <img class="img01" src="../images/首頁產品圖/zensor mcp/Xnip2021-03-19_10-06-35.jpg" alt="產品" />
+                                <img class="img02" src="../images/首頁產品圖/zensor mcp/ECWP100C.png" alt="產品" />
+                            </div>
+                            <div class="txt">
+                                <h5>ECWP100C</h5>
+                                <h5>Price:</h5>
+                                <p>• 開機/連線後直接使用</p>
+                                <p>• 免連接線</p>
+                            </div>
+                            <div class="btn btn-blue">Buy Now</div>
+                        </div>
                     </div>
-                    <img src="../images/NEWS/F16.jpg" />
-                  </div>
-                </div>
-
-                <div class="element element-1">
-                  <div class="wrap">
-                    <div class="white_circle"></div>
-                    <div class="txt">
-                      <h3 data-aos="fade-left" data-aos-duration="1000">
-                        WOW!! Fighter is Toxic!<br />
-                        <span>天哪！戰鬥機有毒！！</span>
-                      </h3>
-                      <a href="">
-                        <div class="button">Read More</div>
-                      </a>
-
-                      <div class="link_wrap">
-                        <a href="#"
-                          ><img src="../images/NEWS/icon/wechat.png" alt=""
-                        /></a>
-                        <a href=""
-                          ><img src="../images/NEWS/icon/line.png" alt="#"
-                        /></a>
-                        <a href="#"
-                          ><img src="../images/NEWS/icon/facebook.png" alt=""
-                        /></a>
-                      </div>
+                    <div class="col-md-3">
+                        <div class="product_item">
+                            <div class="img_wrap">
+                                <img class="img01" src="../images/首頁產品圖/zensor mcp/Xnip2021-03-19_10-06-35.jpg" alt="產品" />
+                                <img class="img02" src="../images/nav商品圖片/ECWP100R.png" alt="產品" />
+                            </div>
+                            <div class="txt">
+                                <h5>ECWP100R</h5>
+                                <h5>Price:</h5>
+                                <p>• 開機/連線後直接使用</p>
+                                <p>• 免連接線</p>
+                            </div>
+                            <div class="btn btn-blue">Buy Now</div>
+                        </div>
                     </div>
-                    <img src="../images/NEWS/F16.jpg" />
-                  </div>
-                </div>
-
-                <div class="element element-1">
-                  <div class="wrap">
-                    <div class="white_circle"></div>
-                    <div class="txt">
-                      <h3 data-aos="fade-left" data-aos-duration="1000">
-                        WOW!! Fighter is Toxic!<br />
-                        <span>天哪！戰鬥機有毒！！</span>
-                      </h3>
-                      <a href="">
-                        <div class="button">Read More</div>
-                      </a>
-
-                      <div class="link_wrap">
-                        <a href="#"
-                          ><img src="../images/NEWS/icon/wechat.png" alt=""
-                        /></a>
-                        <a href=""
-                          ><img src="../images/NEWS/icon/line.png" alt="#"
-                        /></a>
-                        <a href="#"
-                          ><img src="../images/NEWS/icon/facebook.png" alt=""
-                        /></a>
-                      </div>
+                    <div class="col-md-3">
+                        <div class="product_item">
+                            <div class="img_wrap">
+                                <img class="img01" src="../images/首頁產品圖/zensor simulator/Xnip2021-03-19_10-24-54.jpg" alt="產品" />
+                                <img class="img02" src="../images/首頁產品圖/zensor simulator/ACIP100拷貝.png" alt="產品" />
+                            </div>
+                            <div class="txt">
+                                <h5>ACIP100</h5>
+                                <h5>Price:</h5>
+                                <p>• 開機/連線後直接使用</p>
+                                <p>• 免連接線</p>
+                            </div>
+                            <div class="btn btn-blue">Buy Now</div>
+                        </div>
                     </div>
-                    <img src="../images/NEWS/F16.jpg" />
-                  </div>
+                    <div class="col-md-3">
+                        <div class="product_item">
+                            <div class="img_wrap">
+                                <img class="img01" src="../images/首頁產品圖/zensor simulator/Xnip2021-03-19_10-44-59.jpg" alt="產品" />
+                                <img class="img02" src="../images/首頁產品圖/zensor simulator/ECAS100拷貝.png" alt="產品" />
+                            </div>
+                            <div class="txt">
+                                <h5>ECAS100</h5>
+                                <h5>Price:</h5>
+                                <p>• 開機/連線後直接使用</p>
+                                <p>• 免連接線</p>
+                            </div>
+                            <div class="btn btn-blue">Buy Now</div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section_print" style="display: none">
-        <div class="container">
-          <div class="row mt-5">
-            <div class="col-md-12">
-              <div class="print_txt">
-                <h2 data-aos="fade-up" data-aos-duration="800">網版印刷電極</h2>
-                <h3 data-aos="fade-up" data-aos-duration="800">ZENSOR SPE</h3>
-                <p
-                  class="second_title"
-                  data-aos="fade-up"
-                  dat-aos-duration="800"
-                  data-aos-delay="300"
-                >
-                  網版印刷電極利用網版印刷技術發展出具有可拋棄、價格低廉、大量
-                  製作、方便可攜帶和多重設計變化等等的卓越優點的新一代電極。
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12"></div>
-          </div>
-          <div class="row mt-5 mb-5">
-            <div class="col-md-12">
-              <a class="link link-txt">了解更多</a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="container">
-                <div class="reveal">
-                  <img
-                    src="https://images.pexels.com/photos/3938022/pexels-photo-3938022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                  />
+                <div class="row no-gutters">
+                    <div class="col-md-3">
+                        <div class="product_item">
+                            <div class="img_wrap">
+                                <img class="img01" src="../images/首頁產品圖/zensor coater/Xnip2021-03-19_10-46-43.jpg" alt="產品" />
+                                <img class="img02" src="../images/首頁產品圖/zensor coater/CM100拷貝.png" alt="產品" />
+                            </div>
+                            <div class="txt">
+                                <h5>CM100</h5>
+                                <h5>Price:</h5>
+                                <p>• 開機/連線後直接使用</p>
+                                <p>• 免連接線</p>
+                            </div>
+                            <div class="btn btn-blue">Buy Now</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="product_item">
+                            <div class="img_wrap">
+                                <img class="img01" src="../images/首頁產品圖/zensor coater/Xnip2021-03-19_10-56-45.jpg" alt="產品" />
+                                <img class="img02" src="../images/首頁產品圖/zensor coater/CS100.png" alt="產品" />
+                            </div>
+                            <div class="txt">
+                                <h5>CS100</h5>
+                                <h5>Price:</h5>
+                                <p>• 開機/連線後直接使用</p>
+                                <p>• 免連接線</p>
+                            </div>
+                            <div class="btn btn-blue">Buy Now</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="product_item">
+                            <div class="img_wrap">
+                                <img class="img01" src="../images/首頁產品圖/zensor coater/Xnip2021-03-19_11-02-11.jpg" alt="產品" />
+                                <img class="img02" src="../images/首頁產品圖/zensor coater/CT100拷貝.png" alt="產品" />
+                            </div>
+                            <div class="txt">
+                                <h5>CT100</h5>
+                                <h5>Price:</h5>
+                                <p>• 開機/連線後直接使用</p>
+                                <p>• 免連接線</p>
+                            </div>
+                            <div class="btn btn-blue">Buy Now</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="product_item">
+                            <div class="img_wrap">
+                                <img class="img01" src="../images/首頁產品圖/zensor ecd/Xnip2021-03-19_11-09-04.jpg" alt="產品" />
+                                <img class="img02" src="../images/首頁產品圖/zensor ecd/ECD100.png" alt="產品" />
+                            </div>
+                            <div class="txt">
+                                <h5>SF100</h5>
+                                <h5>Price:</h5>
+                                <p>• 開機/連線後直接使用</p>
+                                <p>• 免連接線</p>
+                            </div>
+                            <div class="btn btn-blue">Buy Now</div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <section class="section_mcp mt-5 mb-5" style="display: none">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="mcp_txt">
-                <h2 data-aos="fade-in" data-aos-duration="2000">
-                  無限多通道電位儀
-                </h2>
-                <h3 data-aos="fade-in" data-aos-duration="2000">ZENSOR MCP</h3>
-                <p
-                  class="second_title"
-                  data-aos="fade-in"
-                  data-aos-duration="2000"
-                  data-aos-delay="300"
-                >
-                  我們提供有線與無線的多通道電化學分析儀，皆可設定不同
-                  的電化學方d法，與同步執行或個別獨立執行各通道，讓研究 者
-                  節省下大量的時間，並同時產出更多的實驗數據。
-                </p>
-              </div>
-              <div class="container">
-                <div class="reveal">
-                  <img
-                    src="https://images.pexels.com/photos/3938022/pexels-photo-3938022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                  />
+        </section>
+        <section class="section_news">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="txt">
+                            <div class="wrap">
+                                <div class="quote">NEWS</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="slick-slider">
+                            <!--Slide-1 -->
+                            <div class="element element-1">
+                                <div class="wrap">
+                                    <div class="white_circle"></div>
+                                    <div class="txt">
+                                        <h3 data-aos="fade-left" data-aos-duration="1000">
+                                            WOW!! Fighter is Toxic!<br />
+                                            <span>天哪！戰鬥機有毒！！</span>
+                                        </h3>
+                                        <a href="">
+                                            <div class="button">Read More</div>
+                                        </a>
 
-      <section style="display: none" class="section_others mt-5 mb-5">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="txt">
-                <h2>想要了解更多相關品嗎?</h2>
-                <a href="link-txt link-blue">比較產品規格</a>
-              </div>
-            </div>
-          </div>
-          <div class="row mt-4">
-            <div class="col-md-12">
-              <div class="othersProduct_wrap">
-                <div class="item">PRODUCT</div>
-                <div class="item">PRODUCT</div>
-                <div class="item">PRODUCT</div>
-              </div>
-            </div>
-          </div>
-          <div class="row mt-3">
-            <div class="col-md-12">
-              <div class="bottom_txt">
-                <p>我們還有提供免費服務喔!</p>
-                <a href="" class="link-txt link-blue"> 您可以參考 </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section_news" style="display: none">
-        <div class="container-fluid">
-          <div class="row no-gutters">
-            <div class="col-md-6 top-md-6">
-              <div class="news_txt">
-                <h2>最新消息</h2>
-                <h3>NEWS</h3>
-                <p class="second_title">
-                  電化學分析儀適用於實驗室的生化、環境
-                  、毒物、食品、藥物等檢測之化學感應器
-                  的研發；具自由編寫程序與校正曲線，並
-                  執行臨床獨立離線使用功能。
-                </p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="row inside_row no-gutters">
-                <div class="col-md-6 right_txt">真的可以冻龄並百毒不侵嗎？</div>
-                <div class="col-md-6">
-                  <div class="news_img">IMAGE</div>
+                                        <div class="link_wrap">
+                                            <a href="#"><img src="../images/NEWS/icon/wechat.png" alt="" /></a>
+                                            <a href=""><img src="../images/NEWS/icon/line.png" alt="#" /></a>
+                                            <a href="#"><img src="../images/NEWS/icon/facebook.png" alt="" /></a>
+                                        </div>
+                                    </div>
+                                    <img src="../images/NEWS/F16.jpg" />
+                                </div>
+                            </div>
+
+                            <!--Slide-2 -->
+                            <div class="element element-1">
+                                <div class="wrap">
+                                    <div class="white_circle"></div>
+                                    <div class="txt">
+                                        <h3 data-aos="fade-left" data-aos-duration="1000">
+                                            WOW!! Fighter is Toxic!<br />
+                                            <span>天哪！戰鬥機有毒！！</span>
+                                        </h3>
+                                        <a href="">
+                                            <div class="button">Read More</div>
+                                        </a>
+
+                                        <div class="link_wrap">
+                                            <a href="#"><img src="../images/NEWS/icon/wechat.png" alt="" /></a>
+                                            <a href=""><img src="../images/NEWS/icon/line.png" alt="#" /></a>
+                                            <a href="#"><img src="../images/NEWS/icon/facebook.png" alt="" /></a>
+                                        </div>
+                                    </div>
+                                    <img src="../images/NEWS/F16.jpg" />
+                                </div>
+                            </div>
+
+                            <div class="element element-1">
+                                <div class="wrap">
+                                    <div class="white_circle"></div>
+                                    <div class="txt">
+                                        <h3 data-aos="fade-left" data-aos-duration="1000">
+                                            WOW!! Fighter is Toxic!<br />
+                                            <span>天哪！戰鬥機有毒！！</span>
+                                        </h3>
+                                        <a href="">
+                                            <div class="button">Read More</div>
+                                        </a>
+
+                                        <div class="link_wrap">
+                                            <a href="#"><img src="../images/NEWS/icon/wechat.png" alt="" /></a>
+                                            <a href=""><img src="../images/NEWS/icon/line.png" alt="#" /></a>
+                                            <a href="#"><img src="../images/NEWS/icon/facebook.png" alt="" /></a>
+                                        </div>
+                                    </div>
+                                    <img src="../images/NEWS/F16.jpg" />
+                                </div>
+                            </div>
+
+                            <div class="element element-1">
+                                <div class="wrap">
+                                    <div class="white_circle"></div>
+                                    <div class="txt">
+                                        <h3 data-aos="fade-left" data-aos-duration="1000">
+                                            WOW!! Fighter is Toxic!<br />
+                                            <span>天哪！戰鬥機有毒！！</span>
+                                        </h3>
+                                        <a href="">
+                                            <div class="button">Read More</div>
+                                        </a>
+
+                                        <div class="link_wrap">
+                                            <a href="#"><img src="../images/NEWS/icon/wechat.png" alt="" /></a>
+                                            <a href=""><img src="../images/NEWS/icon/line.png" alt="#" /></a>
+                                            <a href="#"><img src="../images/NEWS/icon/facebook.png" alt="" /></a>
+                                        </div>
+                                    </div>
+                                    <img src="../images/NEWS/F16.jpg" />
+                                </div>
+                            </div>
+
+                            <div class="element element-1">
+                                <div class="wrap">
+                                    <div class="white_circle"></div>
+                                    <div class="txt">
+                                        <h3 data-aos="fade-left" data-aos-duration="1000">
+                                            WOW!! Fighter is Toxic!<br />
+                                            <span>天哪！戰鬥機有毒！！</span>
+                                        </h3>
+                                        <a href="">
+                                            <div class="button">Read More</div>
+                                        </a>
+
+                                        <div class="link_wrap">
+                                            <a href="#"><img src="../images/NEWS/icon/wechat.png" alt="" /></a>
+                                            <a href=""><img src="../images/NEWS/icon/line.png" alt="#" /></a>
+                                            <a href="#"><img src="../images/NEWS/icon/facebook.png" alt="" /></a>
+                                        </div>
+                                    </div>
+                                    <img src="../images/NEWS/F16.jpg" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="row inside_row no-gutters">
-                <div class="col-md-6">
-                  <div class="news_img">IMAGE</div>
-                </div>
-                <div class="col-md-6 right_txt">
-                  根據美國骨骼健康協會的建議， 成年人一天需要1000-1200毫
-                  克的鈣質
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <section class="section_map">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="form_wrap">
-                <form action="https://formspree.io/f/mayawndo" method="POST">
-                  <fieldset id="fs-frm-inputs">
-                    <label for="full-name">姓名</label>
-                    <input type="text" name="name" id="full-name" placeholder="請填寫完整姓名" required="">
-                    <label for="email-address">Email 地址</label>
-                    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-                    <fieldset id="fs-frm-selects">
-                      <label for="timely">如何稱呼您</label><br>
-                      <select name="timely" id="timely" required="">
+        </section>
+        <section class="section_print" style="display: none">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-md-12">
+                        <div class="print_txt">
+                            <h2 data-aos="fade-up" data-aos-duration="800">網版印刷電極</h2>
+                            <h3 data-aos="fade-up" data-aos-duration="800">ZENSOR SPE</h3>
+                            <p class="second_title" data-aos="fade-up" dat-aos-duration="800" data-aos-delay="300">
+                                網版印刷電極利用網版印刷技術發展出具有可拋棄、價格低廉、大量 製作、方便可攜帶和多重設計變化等等的卓越優點的新一代電極。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12"></div>
+                </div>
+                <div class="row mt-5 mb-5">
+                    <div class="col-md-12">
+                        <a class="link link-txt">了解更多</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="container">
+                            <div class="reveal">
+                                <img src="https://images.pexels.com/photos/3938022/pexels-photo-3938022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section_mcp mt-5 mb-5" style="display: none">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="mcp_txt">
+                            <h2 data-aos="fade-in" data-aos-duration="2000">
+                                無限多通道電位儀
+                            </h2>
+                            <h3 data-aos="fade-in" data-aos-duration="2000">ZENSOR MCP</h3>
+                            <p class="second_title" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="300">
+                                我們提供有線與無線的多通道電化學分析儀，皆可設定不同 的電化學方d法，與同步執行或個別獨立執行各通道，讓研究 者 節省下大量的時間，並同時產出更多的實驗數據。
+                            </p>
+                        </div>
+                        <div class="container">
+                            <div class="reveal">
+                                <img src="https://images.pexels.com/photos/3938022/pexels-photo-3938022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="display: none" class="section_others mt-5 mb-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="txt">
+                            <h2>想要了解更多相關品嗎?</h2>
+                            <a href="link-txt link-blue">比較產品規格</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-12">
+                        <div class="othersProduct_wrap">
+                            <div class="item">PRODUCT</div>
+                            <div class="item">PRODUCT</div>
+                            <div class="item">PRODUCT</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-12">
+                        <div class="bottom_txt">
+                            <p>我們還有提供免費服務喔!</p>
+                            <a href="" class="link-txt link-blue"> 您可以參考 </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section_news" style="display: none">
+            <div class="container-fluid">
+                <div class="row no-gutters">
+                    <div class="col-md-6 top-md-6">
+                        <div class="news_txt">
+                            <h2>最新消息</h2>
+                            <h3>NEWS</h3>
+                            <p class="second_title">
+                                電化學分析儀適用於實驗室的生化、環境 、毒物、食品、藥物等檢測之化學感應器 的研發；具自由編寫程序與校正曲線，並 執行臨床獨立離線使用功能。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row inside_row no-gutters">
+                            <div class="col-md-6 right_txt">真的可以冻龄並百毒不侵嗎？</div>
+                            <div class="col-md-6">
+                                <div class="news_img">IMAGE</div>
+                            </div>
+                        </div>
+                        <div class="row inside_row no-gutters">
+                            <div class="col-md-6">
+                                <div class="news_img">IMAGE</div>
+                            </div>
+                            <div class="col-md-6 right_txt">
+                                根據美國骨骼健康協會的建議， 成年人一天需要1000-1200毫 克的鈣質
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section_map">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form_wrap">
+                            <form action="https://formspree.io/f/mayawndo" method="POST">
+                                <fieldset id="fs-frm-inputs">
+                                    <label for="full-name">姓名</label>
+                                    <input type="text" name="name" id="full-name" placeholder="請填寫完整姓名" required="">
+                                    <label for="email-address">Email 地址</label>
+                                    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                                    <fieldset id="fs-frm-selects">
+                                        <label for="timely">如何稱呼您</label><br>
+                                        <select name="timely" id="timely" required="">
                         <option value="Choose" selected="" disabled=""></option>
                         <option value="1">先生</option>
                         <option value="3">小姐</option>
                       
                       </select>
-                      
-                    </fieldset>
-                    <label for="message">留言：</label><br>
-                    <textarea rows="3" name="message" id="message" placeholder="輸入內容" required=""></textarea>
-                  <input type="submit" value="Submit" />
-                  <p>註: 信件成功發送後 請耐心等候 即有專人聯絡您</p>
-                </form>
-              </div>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3642.154501260443!2d120.67912851448109!3d24.09606158140143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693c4f4ea55b59%3A0x929567b71b95f89c!2z56aq6K2c56eR5oqA6IKh5Lu95pyJ6ZmQ5YWs5Y-4IFplbnNvciBSJkQ!5e0!3m2!1szh-TW!2stw!4v1616305327039!5m2!1szh-TW!2stw"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-              ></iframe>
-            </div>
-          </div>
-        </div>
-      </section>
-      <footer>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12">
-              <img
-                class="mb-4 company_logo"
-                src="../images/company_logo/zensor_logo_footer.png"
-                alt=""
-              />
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-8">
-              <div class="wrap">
-                <ul>
-                  <li class="footer_ul_title">Company Info</li>
-                  <li>Phone: 886-4-24075415</li>
-                  <li>Tax: 886-4-24077240</li>
-                  <li>Adress:412 台中市大里區國中路249號</li>
 
-                  <li></li>
-                </ul>
-                <ul>
-                  <li class="footer_ul_title">Company Info</li>
-                  <li>Phone: 886-4-24075415</li>
-                  <li>Tax: 886-4-24077240</li>
-                  <li>Adress:412 台中市大里區國中路249號</li>
-
-                  <li></li>
-                </ul>
-                <ul>
-                  <li class="footer_ul_title">Company Info</li>
-                  <li>Phone: 886-4-24075415</li>
-                  <li>Tax: 886-4-24077240</li>
-                  <li>Adress:412 台中市大里區國中路249號</li>
-
-                  <li></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <img src="../images/footer/pic拷貝.png" alt="" />
-              <div class="icon_wrap"></div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <p>Copyright © 2016 Zensor R&D co.,Ltd All rights reserved</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="Marquee">
-                <div class="Marquee-content">
-                  <div class="Marquee-tag">
-                    <img
-                      class="company_slider"
-                      src="../images/footer/company-01.png"
-                      alt=""
-                    />
-                  </div>
-                  <div class="Marquee-tag">
-                    <img
-                      class="company_slider"
-                      src="../images/footer/company-02.png"
-                      alt=""
-                    />
-                  </div>
-                  <div class="Marquee-tag">
-                    <img
-                      class="company_slider"
-                      src="../images/footer/company-03.png"
-                      alt=""
-                    />
-                  </div>
-                  <div class="Marquee-tag">
-                    <img
-                      class="company_slider"
-                      src="../images/footer/company-04.png"
-                      alt=""
-                    />
-                  </div>
-                  <div class="Marquee-tag">
-                    <img
-                      class="company_slider"
-                      src="../images/footer/company-05.png"
-                      alt=""
-                    />
-                  </div>
-                  <div class="Marquee-tag">
-                    <img
-                      class="company_slider"
-                      src="../images/footer/company-06.png"
-                      alt=""
-                    />
-                  </div>
-                  <div class="Marquee-tag">
-                    <img
-                      class="company_slider"
-                      src="../images/footer/company-07.png"
-                      alt=""
-                    />
-                  </div>
-                  <div class="Marquee-tag">
-                    <img
-                      class="company_slider"
-                      src="../images/footer/company-08.png"
-                      alt=""
-                    />
-                  </div>
-                  <div class="Marquee-tag">
-                    <img
-                      class="company_slider"
-                      src="../images/footer/company-09.png"
-                      alt=""
-                    />
-                  </div>
-                  <div class="Marquee-tag">
-                    <img
-                      class="company_slider"
-                      src="../images/footer/company-01.png"
-                      alt=""
-                    />
-                  </div>
-                  <div class="Marquee-tag">
-                    <img
-                      class="company_slider"
-                      src="../images/footer/company-01.png"
-                      alt=""
-                    />
-                  </div>
-                  <div class="Marquee-tag">
-                    <img
-                      class="company_slider"
-                      src="../images/footer/company-01.png"
-                      alt=""
-                    />
-                  </div>
+                                    </fieldset>
+                                    <label for="message">留言：</label><br>
+                                    <textarea rows="3" name="message" id="message" placeholder="輸入內容" required=""></textarea>
+                                    <input type="submit" value="Submit" />
+                                    <p>註: 信件成功發送後 請耐心等候 即有專人聯絡您</p>
+                            </form>
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3642.154501260443!2d120.67912851448109!3d24.09606158140143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693c4f4ea55b59%3A0x929567b71b95f89c!2z56aq6K2c56eR5oqA6IKh5Lu95pyJ6ZmQ5YWs5Y-4IFplbnNvciBSJkQ!5e0!3m2!1szh-TW!2stw!4v1616305327039!5m2!1szh-TW!2stw"
+                            style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </footer>
+        </section>
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img class="mb-4 company_logo" src="../images/company_logo/zensor_logo_footer.png" alt="" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="wrap">
+                            <ul>
+                                <li class="footer_ul_title">Company Info</li>
+                                <li>Phone: 886-4-24075415</li>
+                                <li>Tax: 886-4-24077240</li>
+                                <li>Adress:412 台中市大里區國中路249號</li>
+
+                                <li></li>
+                            </ul>
+                            <ul>
+                                <li class="footer_ul_title">Company Info</li>
+                                <li>Phone: 886-4-24075415</li>
+                                <li>Tax: 886-4-24077240</li>
+                                <li>Adress:412 台中市大里區國中路249號</li>
+
+                                <li></li>
+                            </ul>
+                            <ul>
+                                <li class="footer_ul_title">Company Info</li>
+                                <li>Phone: 886-4-24075415</li>
+                                <li>Tax: 886-4-24077240</li>
+                                <li>Adress:412 台中市大里區國中路249號</li>
+
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="../images/footer/pic拷貝.png" alt="" />
+                        <div class="icon_wrap"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Copyright © 2016 Zensor R&D co.,Ltd All rights reserved</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="Marquee">
+                            <div class="Marquee-content">
+                                <div class="Marquee-tag">
+                                    <img class="company_slider" src="../images/footer/company-01.png" alt="" />
+                                </div>
+                                <div class="Marquee-tag">
+                                    <img class="company_slider" src="../images/footer/company-02.png" alt="" />
+                                </div>
+                                <div class="Marquee-tag">
+                                    <img class="company_slider" src="../images/footer/company-03.png" alt="" />
+                                </div>
+                                <div class="Marquee-tag">
+                                    <img class="company_slider" src="../images/footer/company-04.png" alt="" />
+                                </div>
+                                <div class="Marquee-tag">
+                                    <img class="company_slider" src="../images/footer/company-05.png" alt="" />
+                                </div>
+                                <div class="Marquee-tag">
+                                    <img class="company_slider" src="../images/footer/company-06.png" alt="" />
+                                </div>
+                                <div class="Marquee-tag">
+                                    <img class="company_slider" src="../images/footer/company-07.png" alt="" />
+                                </div>
+                                <div class="Marquee-tag">
+                                    <img class="company_slider" src="../images/footer/company-08.png" alt="" />
+                                </div>
+                                <div class="Marquee-tag">
+                                    <img class="company_slider" src="../images/footer/company-09.png" alt="" />
+                                </div>
+                                <div class="Marquee-tag">
+                                    <img class="company_slider" src="../images/footer/company-01.png" alt="" />
+                                </div>
+                                <div class="Marquee-tag">
+                                    <img class="company_slider" src="../images/footer/company-01.png" alt="" />
+                                </div>
+                                <div class="Marquee-tag">
+                                    <img class="company_slider" src="../images/footer/company-01.png" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
-    <script
-      type="text/javascript"
-      src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"
-    ></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
     <script>
-      // Slick Slider
-      jQuery(".slick-slider").slick({
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        arrows: true,
-        dots: true,
-        autoplay: true,
-        speed: 800,
-        responsive: [
-                            
-                            {
-                              breakpoint: 769,
-                              settings: {
-                                slidesToShow: 1,
-                                slidesToScroll: 1
-                              }
-                            }
+        // Slick Slider
+        jQuery(".slick-slider").slick({
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: true,
+            autoplay: true,
+            speed: 800,
+            responsive: [
 
-                          ]
-      });
+                {
+                    breakpoint: 769,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
 
-      // Slick Scroll
-      jQuery(function () {
-        const slider = jQuery(".slick-slider");
-        slider;
-
-        slider.on("wheel", function (e) {
-          e.preventDefault();
-
-          if (e.originalEvent.deltaY < 0) {
-            jQuery(this).slick("slickNext");
-          } else {
-            jQuery(this).slick("slickPrev");
-          }
+            ]
         });
-      });
-      //title text animation
-      const quotes = document.querySelectorAll(".quote");
 
-      function setupSplits() {
-        quotes.forEach((quote) => {
-          // Reset if needed
-          if (quote.anim) {
-            quote.anim.progress(1).kill();
-            quote.split.revert();
-          }
+        // Slick Scroll
+        jQuery(function() {
+            const slider = jQuery(".slick-slider");
+            slider;
 
-          quote.split = new SplitText(quote, {
-            type: "lines,words,chars",
-            linesClass: "split-line",
-          });
+            slider.on("wheel", function(e) {
+                e.preventDefault();
 
-          // Set up the anim
-          quote.anim = gsap.from(quote.split.chars, {
-            scrollTrigger: {
-              trigger: quote,
-              toggleActions: "restart pause resume reverse",
-              start: "top 50%",
-            },
-            duration: 0.6,
-            ease: "circ.out",
-            y: 80,
-            stagger: 0.02,
-          });
+                if (e.originalEvent.deltaY < 0) {
+                    jQuery(this).slick("slickNext");
+                } else {
+                    jQuery(this).slick("slickPrev");
+                }
+            });
         });
-      }
+        //title text animation
+        const quotes = document.querySelectorAll(".quote");
 
-      ScrollTrigger.addEventListener("refresh", setupSplits);
-      setupSplits();
+        function setupSplits() {
+            quotes.forEach((quote) => {
+                // Reset if needed
+                if (quote.anim) {
+                    quote.anim.progress(1).kill();
+                    quote.split.revert();
+                }
 
-          //sticky nav
-          $(document).ready(function () {
-        var stickyNavTop = $("nav").offset().top;
+                quote.split = new SplitText(quote, {
+                    type: "lines,words,chars",
+                    linesClass: "split-line",
+                });
 
-        var stickyNav = function () {
-          var scrollTop = $(window).scrollTop();
+                // Set up the anim
+                quote.anim = gsap.from(quote.split.chars, {
+                    scrollTrigger: {
+                        trigger: quote,
+                        toggleActions: "restart pause resume reverse",
+                        start: "top 50%",
+                    },
+                    duration: 0.6,
+                    ease: "circ.out",
+                    y: 80,
+                    stagger: 0.02,
+                });
+            });
+        }
 
-          if (scrollTop > stickyNavTop) {
-            $("nav").addClass("sticky");
-          
-            $('#nav_product').hover(function(){
-              $('.product_toggle').css('top','15vh')
-            })
-          } else {
-            $("nav").removeClass("sticky");
-            
-            $('#nav_product').hover(function(){
-              $('.product_toggle').css('top','15vh')
-            })
-          }
-        };
+        ScrollTrigger.addEventListener("refresh", setupSplits);
+        setupSplits();
 
-        stickyNav();
+        //sticky nav
+        $(document).ready(function() {
+            var stickyNavTop = $("nav").offset().top;
 
-        $(window).scroll(function () {
-          stickyNav();
+            var stickyNav = function() {
+                var scrollTop = $(window).scrollTop();
+
+                if (scrollTop > stickyNavTop) {
+                    $("nav").addClass("sticky");
+
+                    $('#nav_product').hover(function() {
+                        $('.product_toggle').css('top', '15vh')
+                    })
+                } else {
+                    $("nav").removeClass("sticky");
+
+                    $('#nav_product').hover(function() {
+                        $('.product_toggle').css('top', '15vh')
+                    })
+                }
+            };
+
+            stickyNav();
+
+            $(window).scroll(function() {
+                stickyNav();
+            });
         });
-      });
-      //top_fix_nav  virticle carousel
-      $(document).ready(function () {
-        $(".top_fix_nav").slick({
-          vertical: true,
-          dots: false,
-          autoplay: true,
+        //top_fix_nav  virticle carousel
+        $(document).ready(function() {
+            $(".top_fix_nav").slick({
+                vertical: true,
+                dots: false,
+                autoplay: true,
+            });
         });
-      });
     </script>
     <script></script>
-  </body>
+</body>
+
 </html>
